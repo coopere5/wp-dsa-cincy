@@ -1,4 +1,4 @@
-### Seattle DSA Wordpress Theme
+### Metro Cincinnati and Northern Kentucky DSA Wordpress Theme
 
 This theme uses JointsWP, a blank Wordpress Theme built using ZURB Foundation for Sites 6.3.
 
