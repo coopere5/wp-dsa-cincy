@@ -167,7 +167,7 @@ Template Name: Hompage 2017
 		<div id="dsa-home-row-3" class="bg-DSAred">
 			<div class="row dsa-home-row-3-edit">
 				<div class="text-center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ui-foregrounds/calendar.svg" width="141" height="141" /><br /><h2 class="dsa-section-title txt-DSAwhite">Upcoming Events</h2></div>
-				<?php // Retrieve the next 5 upcoming events
+				<!-- <?php // Retrieve the next 5 upcoming events
 					$events = tribe_get_events( array(
 					    'posts_per_page' => 2,
 					    'start_date' => date( 'Y-m-d H:i:s', strtotime("-6 hours")),
@@ -213,7 +213,7 @@ Template Name: Hompage 2017
 					echo "<div class=\"text-center\"><a class=\"button dark\" href=\"";
 					echo tribe_events_get_list_widget_view_all_link ();
 					echo "\">See All</a></div>";
-				?>
+				?> -->
 			</div>
 		</div> 
 
